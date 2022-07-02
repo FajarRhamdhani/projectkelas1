@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+
+.container {
+
+    background-color: rgb(99, 187, 238);
+
+}
+
+header ul li a {
+
+    color: white;
+
+}
+
+header ul li :hover {
+
+    color: rgb(99, 187, 238);
+    background-color: white;
+
+}
+
+/* footer */
+
+footer {
+
+    margin: 100px 0 0 0 ;
+    color: white;
+
+}
+
+footer div p {
+
+    padding: 10px 0;
+
+}
