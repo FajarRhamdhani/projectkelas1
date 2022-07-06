@@ -3,32 +3,193 @@
     padding: 0px;
 }
 
-/* header */
+/* nav */
 
-.container {
-
-    background-color: rgb(99, 187, 238);
-
+header  {
+    background-color: #e54818;
 }
 
-header ul li a {
+.position-nav{
+    position: fixed;
+    z-index: 2;
+ }
 
+header .image-header {
+    width: 30%;
+    margin: 0px -100px 0px 50px;
+}
+
+.position-nav-li{
+    padding: 0px 50px 0px 0px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
     color: white;
-
 }
 
-header ul li :hover {
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
 
-    color: rgb(99, 187, 238);
-    background-color: white;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: rgba(245, 255, 50, 0.3);
+    border-top: 5px solid rgb(251, 222, 59);
+    border-radius: 20%;
+    padding: 10px 10px;
+}
 
+/*content first*/
+
+.position-article{
+    position: relative;
+    z-index: 1;
+}
+
+.background-img1 {
+    background-image: url("images/car1.jpeg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.h1content {
+    margin: 150px 0px 50px 0px;
+    color: white;
+}
+
+.h3content {
+    margin: 0px 0px 50px 0px;
+    color: white;
+}
+
+.btncontentfirst {
+    padding: 10px 70px;
+}
+
+.textcontentrightfirst {
+    color: white;
+    margin: 150px 0px 30px 0px;
+}
+
+.contentnews {
+    margin: 20px 0px 0px 0px;
+    border-bottom: 2px solid orange;
+}
+
+.textcontent {
+    color: white;
+}
+
+.textcontenthover {
+    color: white;
+}
+
+a.textcontenthover:hover {
+    text-decoration: none;
+    color: rgb(232, 232, 239);
+}
+
+/*content second*/
+
+.backgroundcontentsecond {
+    background-color: #7c7c7c;
+}
+
+.h2contentsecond {
+    margin: 100px 0px 20px 40px;
+    color: rgb(251, 255, 0);
+}
+
+.pcontentsecond {
+    margin: 0px 0px 20px 40px;
+    color: white;
+}
+
+.contentsecondvideo {
+    margin: 20px 0px 40px 0px;
+}
+
+.contentsecondborder {
+    border-bottom: 2px solid rgb(251, 222, 59);
+    margin: 0px 0px 20px 0px;
+}
+
+/*content second2*/
+
+.h2contentsecond2 {
+    margin: 10px 0px 20px 40px;
+    color: rgb(251, 255, 0);
+}
+
+.contentsecondimage {
+    margin: -320px 0px 40px 0px;
+}
+
+.contentsecondborder2 {
+    border-bottom: 2px solid rgb(251, 222, 59);
+    margin: 0px 0px 20px 0px;
+}
+
+.pcontensecond2 {
+    color: white;
+    margin: 50px 0px 20px 40px;
+}
+
+.btncontentsecond2 {
+    padding: 10px 70px;
+    margin: 0px 0px 0px 40px;
+}
+
+/*content second3*/
+
+.h2contentsecond3 {
+    margin: 0px 0px -50px 40px;
+    color: rgb(251, 255, 0);
+}
+
+.contentsecondimage3 {
+    margin: -290px 0px 40px 0px;
+}
+
+.contentsecondborder3 {
+    border-bottom: 2px solid rgb(251, 222, 59);
+    margin: 0px 0px 50px 0px;
+}
+
+.pcontensecond3 {
+    color: white;
+    margin: 50px 0px 0px 40px;
+}
+
+.btncontentsecond3 {
+    padding: 10px 70px;
+    margin: 20px 0px 0px 40px;
+}
+
+/*content third*/
+
+.positioncontentthird {
+    margin: 50px 0px 0px 0px;
+}
+
+.imagecontentthird {
+    height: 140px;
+}
+
+.positioncontentthird2 {
+    margin: 0px -100px 0px 140px;
+}
+
+.positioncontentthird3 {
+    margin: 0px -100px 0px 0px;
 }
 
 /* footer */
 
 footer {
 
-    margin: 100px 0 0 0 ;
+    margin: 100px 0px 0px 0px ;
     color: white;
 
 }
