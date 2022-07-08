@@ -267,17 +267,116 @@ a.textcontenthover:hover {
     margin: -40px 0px 30px 0px;
 }
 
-/* footer */
+/*content sixth*/
 
-footer {
-
-    margin: 100px 0px 0px 0px ;
-    color: white;
-
+.backgroundcontentsixth {
+    background-color: #595959;
 }
 
-footer div p {
+.sizecontentsixth {
+    padding: 0px 0px 50px 0px;
+}
 
-    padding: 10px 0;
+.titlecontentsixth {
+    margin: 40px 0px 0px 20px;
+    color: white;
+}
 
+.imagecontentsixth {
+    margin: -200px 0px 0px 20px;
+}
+
+.titlecontentsixth1 {
+    margin: 20px 0px 0px 20px;
+    color: white;
+}
+
+.textcontentsixth {
+    margin: 10px 0px 0px 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.titlecontentsixth3 {
+    margin: 20px 0px 0px 20px;
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+
+.titlecontentsixth2 {
+    margin: 90px 0px 0px 20px;
+    color: white;
+}
+
+.textcontentsixth1 {
+    margin: 10px 0px 0px 20px;
+    color: white;
+    font-size: 14px;
+    width: 80%;
+}
+
+.backgroundcontentsixth1 {
+    background-color: orange;
+    margin: 5px 0px 0px 0px;
+    height: 480px;
+}
+
+/*content seventh*/
+
+.backgroundcontentseventh {
+    background-color: orange;
+    padding: 0px 0px 40px 0px;
+}
+
+.imagecontentseventh {
+    margin: -40px 0px 0px 0px;
+}
+
+.titlecontentseventh {
+    margin: 50px 0px 10px 0px;
+    color: white;
+    font-size: 16px;
+    width: 300px;
+}
+
+a.textcontentseventh {
+    color: white;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 2px solid #e54818;
+}
+
+a.textcontentseventh:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.lidecoration {
+    list-style: none;
+    margin: 15px 0px 0px 0px;
+}
+
+.positioncontenthseventh {
+    margin: 0px -190px 0px 20px;
+}
+
+.positioncontenthseventh1 {
+    padding: 0px 0px 0px 40px;
+}
+
+/* footer */
+
+.backgroundfooter {
+    background-color: #e54818;
+}
+
+.logofooter {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.textfooter {
+    color: white;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
 }
