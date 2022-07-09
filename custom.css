@@ -3,38 +3,380 @@
     padding: 0px;
 }
 
-/* header */
+/* nav */
 
-.container {
-
-    background-color: rgb(99, 187, 238);
-
+header  {
+    background-color: #e54818;
 }
 
-header ul li a {
+.position-nav{
+    position: fixed;
+    z-index: 2;
+ }
 
+header .image-header {
+    width: 30%;
+    margin: 0px -100px 0px 50px;
+}
+
+.position-nav-li{
+    padding: 0px 50px 0px 0px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
     color: white;
-
 }
 
-header ul li :hover {
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
 
-    color: rgb(99, 187, 238);
-    background-color: white;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: rgba(245, 255, 50, 0.3);
+    border-top: 5px solid rgb(251, 222, 59);
+    border-radius: 20%;
+    padding: 10px 10px;
+}
 
+/*content first*/
+
+.position-article{
+    position: relative;
+    z-index: 1;
+}
+
+.background-img1 {
+    background-image: url("images/car1.jpeg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.h1content {
+    margin: 150px 0px 50px 0px;
+    color: white;
+}
+
+.h3content {
+    margin: 0px 0px 50px 0px;
+    color: white;
+}
+
+.btncontentfirst {
+    padding: 10px 70px;
+}
+
+.textcontentrightfirst {
+    color: white;
+    margin: 150px 0px 30px 0px;
+}
+
+.contentnews {
+    margin: 20px 0px 0px 0px;
+    border-bottom: 2px solid orange;
+}
+
+.textcontent {
+    color: white;
+}
+
+.textcontenthover {
+    color: white;
+}
+
+a.textcontenthover:hover {
+    text-decoration: none;
+    color: rgb(232, 232, 239);
+}
+
+/*content second*/
+
+.backgroundcontentsecond {
+    background-color: #7c7c7c;
+}
+
+.h2contentsecond {
+    margin: 100px 0px 20px 40px;
+    color: rgb(251, 255, 0);
+}
+
+.pcontentsecond {
+    margin: 0px 0px 20px 40px;
+    color: white;
+}
+
+.contentsecondvideo {
+    margin: 20px 0px 40px 0px;
+}
+
+.contentsecondborder {
+    border-bottom: 2px solid rgb(251, 222, 59);
+    margin: 0px 0px 20px 0px;
+}
+
+/*content second2*/
+
+.h2contentsecond2 {
+    margin: 10px 0px 20px 40px;
+    color: rgb(251, 255, 0);
+}
+
+.contentsecondimage {
+    margin: -320px 0px 40px 0px;
+}
+
+.contentsecondborder2 {
+    border-bottom: 2px solid rgb(251, 222, 59);
+    margin: 0px 0px 20px 0px;
+}
+
+.pcontensecond2 {
+    color: white;
+    margin: 50px 0px 20px 40px;
+}
+
+.btncontentsecond2 {
+    padding: 10px 70px;
+    margin: 0px 0px 0px 40px;
+}
+
+/*content second3*/
+
+.h2contentsecond3 {
+    margin: 0px 0px -50px 40px;
+    color: rgb(251, 255, 0);
+}
+
+.contentsecondimage3 {
+    margin: -290px 0px 40px 0px;
+}
+
+.contentsecondborder3 {
+    border-bottom: 2px solid rgb(251, 222, 59);
+    margin: 0px 0px 50px 0px;
+}
+
+.pcontensecond3 {
+    color: white;
+    margin: 50px 0px 0px 40px;
+}
+
+.btncontentsecond3 {
+    padding: 10px 70px;
+    margin: 20px 0px 0px 40px;
+}
+
+/*content third*/
+
+.positioncontentthird {
+    margin: 50px 0px 0px 0px;
+}
+
+.imagecontentthird {
+    height: 140px;
+}
+
+.positioncontentthird2 {
+    margin: 0px -100px 0px 140px;
+}
+
+.positioncontentthird3 {
+    margin: 0px -100px 0px 0px;
+}
+
+/*content fourth*/
+
+.positioncontentfourth {
+    margin: 40px 0px 0px 40px;
+    color: #7c7c7c;
+}
+
+.backgroundcontentfourth1 {
+    background-image: url("images/city1.jpeg");
+    background-size: 400px 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    margin: 30px -200px 0px 100px;
+}
+
+.backgroundcontentfourth2 {
+    background-image: url("images/city2.jpeg");
+    background-size: 300px 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    margin: 30px 0px 30px 0px;
+}
+
+.backgroundcontentfourth3 {
+    background-image: url("images/city3.jpeg");
+    background-size: 300px 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    margin: 30px 0px 30px 0px;
+}
+
+.backgroundcontentfourth4 {
+    background-image: url("images/city4.jpeg");
+    background-size: 300px 420px;
+    height: 420px;
+    background-repeat: no-repeat;
+}
+
+.backgroundcontentfourth5 {
+    background-image: url("images/city5.jpeg");
+    background-size: 300px 420px;
+    height: 420px;
+    background-repeat: no-repeat;
+}
+
+.h2contentfourth {
+    color: white;
+    margin: 550px 0px 0px 10px;
+    width: 80%;
+}
+
+.pcontentfourth {
+    color: white;
+    margin: 20px 0px 0px 10px;
+    width: 60%;
+}
+
+.h2contentfourth1 {
+    color: orange;
+    margin: 50px 0px 0px 10px;
+    width: 80%;
+}
+
+.pcontentfourth1 {
+    color: whitesmoke;
+    margin: 20px 0px 0px 10px;
+    width: 80%;
+}
+
+.backgroundcontentfifth {
+    background-color: #eeeeee;
+    margin: 20px 0px 0px 0px;
+}
+
+.positioncontentfifth {
+    padding: 40px 0px 0px 40px;
+}
+
+.imagecontentfifth {
+    margin: -40px 0px 30px 0px;
+}
+
+/*content sixth*/
+
+.backgroundcontentsixth {
+    background-color: #595959;
+}
+
+.sizecontentsixth {
+    padding: 0px 0px 50px 0px;
+}
+
+.titlecontentsixth {
+    margin: 40px 0px 0px 20px;
+    color: white;
+}
+
+.imagecontentsixth {
+    margin: -200px 0px 0px 20px;
+}
+
+.titlecontentsixth1 {
+    margin: 20px 0px 0px 20px;
+    color: white;
+}
+
+.textcontentsixth {
+    margin: 10px 0px 0px 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.titlecontentsixth3 {
+    margin: 20px 0px 0px 20px;
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+
+.titlecontentsixth2 {
+    margin: 90px 0px 0px 20px;
+    color: white;
+}
+
+.textcontentsixth1 {
+    margin: 10px 0px 0px 20px;
+    color: white;
+    font-size: 14px;
+    width: 80%;
+}
+
+.backgroundcontentsixth1 {
+    background-color: orange;
+    margin: 5px 0px 0px 0px;
+    height: 480px;
+}
+
+/*content seventh*/
+
+.backgroundcontentseventh {
+    background-color: orange;
+    padding: 0px 0px 40px 0px;
+}
+
+.imagecontentseventh {
+    margin: -40px 0px 0px 0px;
+}
+
+.titlecontentseventh {
+    margin: 50px 0px 10px 0px;
+    color: white;
+    font-size: 16px;
+    width: 300px;
+}
+
+a.textcontentseventh {
+    color: white;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 2px solid #e54818;
+}
+
+a.textcontentseventh:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.lidecoration {
+    list-style: none;
+    margin: 15px 0px 0px 0px;
+}
+
+.positioncontenthseventh {
+    margin: 0px -190px 0px 20px;
+}
+
+.positioncontenthseventh1 {
+    padding: 0px 0px 0px 40px;
 }
 
 /* footer */
 
-footer {
-
-    margin: 100px 0 0 0 ;
-    color: white;
-
+.backgroundfooter {
+    background-color: #e54818;
 }
 
-footer div p {
+.logofooter {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
 
-    padding: 10px 0;
-
+.textfooter {
+    color: white;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
 }
